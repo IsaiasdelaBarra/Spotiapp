@@ -1,6 +1,6 @@
-<div class="row justify-content-center animated fadeIn">
+<div class="row justify-content-center">
     <div class="col-6 col-md-3 mb-3" *ngFor="let item of items">
-      <div class="card mb-3">
+      <div (click)="verArtista( item)" class="card mb-3 animated fadeIn"   class="card puntero">
         <img [src]="item.images| noimage" class="card-img-top" alt="Descripción de la imagen">
         <div class="card-body">
           <h5 class="card-title">{{ item.name }}</h5>

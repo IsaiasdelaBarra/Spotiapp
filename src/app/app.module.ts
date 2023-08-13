@@ -26,6 +26,7 @@ import { NoimagePipe } from './pipes/noimage.pipe';
 //Import de la optimizacion de las tarjetas
 import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
 import { LoadingComponent } from './components/shared/loading/loading.component';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
 
 
 //Declaraciones de modulos
@@ -39,6 +40,7 @@ import { LoadingComponent } from './components/shared/loading/loading.component'
     ArtistaComponent,
     NavbarComponent,
     NoimagePipe,
+    DomseguroPipe,
     TarjetasComponent,
     LoadingComponent
   ],

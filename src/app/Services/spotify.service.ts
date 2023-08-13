@@ -14,13 +14,13 @@ export class SpotifyService {
     console.log('Spotify service listo');
   }
 
-
+   //Aca insertar token de spotify
   getQuery( query: string){
 
     const url =`https://api.spotify.com/v1/${query}`;
 
     const headers = new HttpHeaders({
-      'Authorization': 'Bearer BQCTMqvOK8Km2gzBF-y26Y1rGNXL7HFFsdaHeMDkSbmHhfkWQLro0-Wszo4Dyc7y4Cn745UabM9SNB1zEVHk9H3mIqY5-4E4vRFnYa_BI8yXakYbOAY'
+      'Authorization': 'Bearer BQCY1cKnuDHXL5M1rE2uHzvyNLcXj2_6WLjUOH4O6RZ7aqfQyWapQglAvmw31q8BiCr5YleaG1AUMiS16iVHD0e4oKXK92pGd-ku639p4dTXiVB3jp0'
    });
 
    return this.http.get(url, {headers});
